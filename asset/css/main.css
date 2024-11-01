@@ -1,0 +1,628 @@
+@charset "UTF-8";
+/* MEDİA QERYS */
+@import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css";
+@media (max-width: 575.98px) {
+  .container {
+    width: 99%;
+  }
+}
+@media (max-width: 767.98px) {
+  html {
+    font-size: 17px !important;
+  }
+  .container {
+    width: 96%;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    width: 94%;
+  }
+}
+@media (max-width: 1199.98px) {
+  .container {
+    width: 93%;
+  }
+}
+@media (max-width: 1399.98px) {
+  .container {
+    width: 92%;
+  }
+}
+/*PADDING*/
+.pt-1 {
+  padding-top: 5px;
+}
+
+.pt-2 {
+  padding-top: 10px;
+}
+
+.pt-3 {
+  padding-top: 15px;
+}
+
+.pb-1 {
+  padding-bottom: 5px;
+}
+
+.pb-2 {
+  padding-bottom: 10px;
+}
+
+.pb-3 {
+  padding-bottom: 15px;
+}
+
+.ps-1 {
+  padding-left: 5px;
+}
+
+.ps-2 {
+  padding-left: 10px;
+}
+
+.ps-3 {
+  padding-left: 15px;
+}
+
+.pe-1 {
+  padding-right: 5px;
+}
+
+.pe-2 {
+  padding-right: 10px;
+}
+
+.pe-3 {
+  padding-right: 15px;
+}
+
+/*MARGIN*/
+.mt-1 {
+  margin-top: 5px;
+}
+
+.mt-2 {
+  margin-top: 10px;
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+.mb-1 {
+  margin-bottom: 5px;
+}
+
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.ms-1 {
+  margin-left: 5px;
+}
+
+.ms-2 {
+  margin-left: 10px;
+}
+
+.ms-3 {
+  margin-left: 15px;
+}
+
+.me-1 {
+  margin-right: 5px;
+}
+
+.me-2 {
+  margin-right: 10px;
+}
+
+.me-3 {
+  margin-right: 15px;
+}
+
+/*GAP*/
+.gap-1 {
+  gap: 5px;
+}
+
+.gap-2 {
+  gap: 10px;
+}
+
+.gap-3 {
+  gap: 15px;
+}
+
+/*FONT SIZE*/
+.fs-1 {
+  font-size: 0.3rem;
+}
+
+.fs-2 {
+  font-size: 0.5rem;
+}
+
+.fs-3 {
+  font-size: 1rem;
+}
+
+.fs-4 {
+  font-size: 1.2rem;
+}
+
+.fs-5 {
+  font-size: 1.5rem;
+}
+
+.fs-6 {
+  font-size: 2rem;
+}
+
+/*OPACITY*/
+.op-1 {
+  opacity: 1;
+}
+
+.op-2 {
+  opacity: 0.8;
+}
+
+.op-3 {
+  opacity: 0.5;
+}
+
+.op-4 {
+  opacity: 0.3;
+}
+
+.op-5 {
+  opacity: 0;
+}
+
+/*TEXT STYLE*/
+.text-bold {
+  font-weight: bold;
+}
+
+.text-light {
+  font-weight: 200;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.parag {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+/*BUTTON*/
+.btn {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  transition: 0.25s ease-out;
+}
+.btn i {
+  pointer-events: none;
+}
+
+.btn-hv {
+  border-radius: 8px;
+}
+.btn-hv i {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.btn-hv:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.btn-hv:hover i {
+  color: #fff;
+}
+
+.btn-hv-active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.btn-hv-active i {
+  color: #fff;
+}
+
+.btn-back {
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+}
+.btn-back:hover {
+  opacity: 0.9;
+}
+.btn-back:active {
+  transform: scale(0.95);
+}
+
+/*RADIUS*/
+.r-1 {
+  border-radius: 3px;
+}
+
+.r-2 {
+  border-radius: 5px;
+}
+
+.r-3 {
+  border-radius: 10px;
+}
+
+.r-4 {
+  border-radius: 15px;
+}
+
+.r-5 {
+  border-radius: 20px;
+}
+
+.default-build {
+  display: flex;
+}
+.default-build .fix-bar {
+  background-color: transparent;
+  position: sticky;
+  bottom: 0;
+  width: 6%;
+  height: 100%;
+}
+@media (max-width: 991.98px) {
+  .default-build .fix-bar {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+  }
+}
+.default-build .render-content {
+  position: relative;
+  background-color: transparent;
+  width: 94%;
+}
+@media (max-width: 991.98px) {
+  .default-build .render-content {
+    width: 100%;
+  }
+}
+.default-build .render-content .more-content {
+  margin-top: 1rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: transparent;
+  top: 0;
+  padding: 8px;
+  z-index: 10;
+}
+.navbar .navbar-cont {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navbar-cont .desktop-view {
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+}
+.navbar .navbar-cont .mobile-view {
+  display: none;
+  gap: 5px;
+}
+.navbar .navbar-cont .mobile-view button {
+  padding: 10px;
+}
+@media (max-width: 991.98px) {
+  .navbar .navbar-cont .mobile-view {
+    display: flex;
+  }
+}
+.navbar .navbar-cont .btn {
+  font-size: 1rem;
+  padding: 6px 12px;
+  font-weight: 300;
+  font-family: "Rubik", sans-serif;
+}
+
+.fix-bar {
+  display: flex;
+  z-index: 10;
+}
+@media (max-width: 991.98px) {
+  .fix-bar {
+    height: 55px !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 20px 20px 0 0;
+    backdrop-filter: blur(20px);
+  }
+}
+.fix-bar .center-cont {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+@media (max-width: 991.98px) {
+  .fix-bar .center-cont {
+    flex-direction: row;
+  }
+}
+.fix-bar .center-cont button {
+  padding: 10px;
+}
+
+.preview-slider {
+  height: 700px;
+  width: 100%;
+  box-shadow: 19px -21px 58px 0px rgba(10, 10, 10, 0.74) inset;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 15px;
+}
+@media (max-width: 991.98px) {
+  .preview-slider {
+    height: 500px;
+  }
+}
+.preview-slider .slider-log {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 15;
+}
+@media (max-width: 991.98px) {
+  .preview-slider .slider-log {
+    display: none;
+  }
+}
+.preview-slider .slider-log .slider-log-item {
+  z-index: 15;
+  width: 15px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 50%;
+  transition: 0.3s ease-out;
+}
+.preview-slider .slider-log .slider-log-active {
+  width: 50px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px !important;
+}
+.preview-slider .slider-logo {
+  transition: 0.3s ease-out;
+  max-height: 160px;
+  width: 25%;
+  max-width: max-content;
+  filter: drop-shadow(0px 0px 16px #000000);
+}
+@media (max-width: 991.98px) {
+  .preview-slider .slider-logo {
+    width: 90%;
+  }
+}
+.preview-slider .slider-brand {
+  background-color: rgb(115, 143, 81);
+  width: max-content;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+}
+.preview-slider .slider-parag {
+  width: 100%;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+.preview-slider .slider-buttons {
+  display: flex;
+  justify-content: left;
+  gap: 5px;
+}
+.preview-slider .slider-buttons button {
+  padding: 5px 15px;
+  font-size: 0.7rem;
+}
+.preview-slider .slider-buttons button:first-child {
+  width: 150px;
+}
+@media (max-width: 991.98px) {
+  .preview-slider .slider-buttons button:first-child {
+    width: 80%;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .preview-slider .slider-buttons button:last-child {
+    width: 20%;
+    font-size: 0.8rem;
+  }
+}
+.preview-slider .slider-arrows {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+}
+.preview-slider .slider-arrows button i {
+  font-size: 2.2rem;
+}
+
+.slider-img-preview {
+  transition: 0.3s ease-out;
+  position: absolute;
+  top: 0;
+  height: 700px;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+  box-shadow: inset 40px 0px 100px 40px rgb(10, 10, 10), inset 0px 40px 100px 40px rgb(10, 10, 10), inset 0px -40px 100px 40px rgb(10, 10, 10);
+  background-image: url(../img/stock/theterminallistwalp.jpg);
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 991.98px) {
+  .slider-img-preview {
+    height: 500px;
+  }
+}
+@media (max-width: 991.98px) {
+  .slider-img-preview {
+    box-shadow: inset 0px -40px 100px 70px rgb(10, 10, 10);
+  }
+}
+
+.c-box-ver {
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 991.98px) {
+  .c-box-ver {
+    overflow: auto;
+  }
+}
+.c-box-ver .c-box {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  transition: transform 0.3s ease;
+  gap: 10px;
+  height: 170px;
+  position: relative;
+}
+.c-box-ver .c-arrows button {
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50px;
+  backdrop-filter: blur(20px);
+}
+@media (max-width: 991.98px) {
+  .c-box-ver .c-arrows button {
+    display: none !important;
+  }
+}
+.c-box-ver .c-arrows .c-left {
+  left: 0;
+}
+.c-box-ver .c-arrows .c-right {
+  right: 0;
+}
+
+.c-box-item {
+  min-width: 18%;
+  box-sizing: border-box;
+  height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/stock/tumb/breakingbad_tump.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 991.98px) {
+  .c-box-item {
+    min-width: 60%;
+  }
+}
+.c-box-item:hover {
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #fff;
+  box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.5);
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  width: 92%;
+}
+
+img {
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+i {
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

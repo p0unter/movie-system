@@ -1,0 +1,35 @@
+.default-build {
+    display: flex;
+
+    .fix-bar {
+        background-color: transparent;
+        position: sticky;
+
+        bottom: 0;
+
+        width: 6%;
+        height: 100%;
+
+        @media (max-width: 991.98px) { 
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50%;
+        }
+    }
+    .render-content {
+        position: relative;
+        background-color: transparent;
+
+        width: 94%;
+
+        @media (max-width: 991.98px) { 
+            width: 100%;
+        }
+
+        .more-content {
+            margin-top: 1rem;
+        }
+    }
+}
+

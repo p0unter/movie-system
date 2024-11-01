@@ -1,0 +1,27 @@
+.fix-bar {
+    display: flex;
+    z-index: 10;
+
+    @media (max-width: 991.98px) { 
+        height: 55px !important;
+        background-color: $hv-1 !important;
+        border-radius: 20px 20px 0 0;
+        backdrop-filter: blur(20px);
+    }
+
+    .center-cont {
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+
+        @media (max-width: 991.98px) { 
+            flex-direction: row;
+        }
+
+        button {
+            padding: 10px;
+        }
+    }
+}

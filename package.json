@@ -1,0 +1,15 @@
+{
+  "name": "music-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch asset/sass/:asset/css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.80.5"
+  }
+}

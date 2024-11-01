@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Pounter Movie</title>
+
+    <link rel="stylesheet" href="asset/css/main.css">
+</head>
+<body class="default-build">
+    <div class="slider-img-preview">
+    </div>
+
+    <div class="fix-bar">
+        <div class="center-cont">
+            <button class="btn btn-hv"><i class="ri-search-line"></i></button>
+            <button class="btn btn-hv"><i class="ri-stack-fill"></i></button>
+            <button class="btn btn-hv"><i class="ri-save-3-line"></i></button>
+        </div>
+    </div>
+    <div class="render-content">
+        <nav class="navbar">
+            <div class="navbar-cont">
+                <div class="desktop-view">
+                    <a class="btn btn-hv btn-hv-active" href="#">Home</a>
+                    <a class="btn btn-hv" href="#">Movies</a>
+                    <a class="btn btn-hv" href="#">TV Shows</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-content">
+            <div class="preview-slider">
+                <div class="slider-log">
+                </div>
+                <img src="" alt="" class="slider-logo">
+                <p class="parag slider-parag">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, rerum sed. Perspiciatis inventore.
+                </p>
+                <div class="slider-buttons">
+                    <button class="btn btn-back"><i class="ri-play-circle-fill"></i>Watch</button>
+                    <button class="btn btn-hv"><i class="ri-save-3-line"></i>Save</button>
+                </div>
+                <div class="slider-arrows">
+                    <button class="btn btn-hv" id="slider-left"><i class="ri-arrow-left-s-line"></i></button>
+                    <button class="btn btn-hv" id="slider-right"><i class="ri-arrow-right-s-line"></i></button>
+                </div>
+            </div>
+            <div class="more-content">
+                <div class="c-rescent c-box-ver">
+                    <div class="c-arrows">
+                        <button class="btn btn-hv c-left" onclick="moveSlider(-1)">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </button>
+                        <button class="btn btn-hv c-right" onclick="moveSlider(1)">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </button>
+                    </div>
+                    <div class="c-box">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="asset/js/back/data.js"></script>
+    <script src="asset/js/front/slider.js"></script>
+    <script src="asset/js/front/box.js"></script>
+</body>
+</html>
